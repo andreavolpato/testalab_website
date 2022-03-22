@@ -33,7 +33,7 @@
         array(
             'name'      => 'Andrea Volpato',
             'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/Andrea_V.png', 
+            'photo'     => 'assets/people/team/Andrea_V.JPG', 
             'shortbio'  => 'I am a physical chemist with a background in non-linear optical spectroscopy.
             My expertise includes the development of advanced optical systems, investigation of complex photo-physics in biological processes, and theoretical modeling of spectroscopic data.
             I’m developing new tools in functional imaging, exploiting switchable transitions in fluorescent proteins, and organic dyes.',
