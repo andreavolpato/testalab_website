@@ -1,0 +1,5 @@
+https://github.com/pcooksey/bibtex-js
+it can be installed using js deliver
+
+https://www.monperrus.net/martin/bibtexbrowser/#Howtoembedapublicationlistinanhomepage
+This project uses only php

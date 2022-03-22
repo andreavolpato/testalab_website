@@ -1,0 +1,53 @@
+https://citation.crosscite.org/
+https://citation.crosscite.org/docs.html
+
+Try from a terminal:
+curl -LH "Accept: text/x-bibliography; style=apa" https://doi.org/10.1038/s41587-020-00779-2
+
+It should give as output:
+
+Bodén, A., Pennacchietti, F., Coceano, G., Damenti, M., Ratz, M., & Testa, I. (2021). Volumetric live cell imaging with three-dimensional parallelized RESOLFT microscopy. Nature Biotechnology. doi:10.1038/s41587-020-00779-2
+
+------------------------------------------------------
+How to use curl in php?
+See this page
+https://www.php.net/manual/en/function.curl-init.php
+
+<?php
+// create a new cURL resource
+$ch = curl_init();
+
+// set URL and other appropriate options
+curl_setopt($ch, CURLOPT_URL, "http://www.example.com/");
+curl_setopt($ch, CURLOPT_HEADER, 0);
+
+// grab URL and pass it to the browser
+curl_exec($ch);
+
+// close cURL resource, and free up system resources
+curl_close($ch);
+?>
+
+
+In our example then it should be:
+
+<?php
+// create a new cURL resource
+$ch = curl_init();
+
+// set URL and other appropriate options
+curl_setopt($ch, CURLOPT_URL, "https://doi.org/10.1038/s41587-020-00779-2");
+curl_setopt($ch, CURLOPT_HEADER, "Accept: text/x-bibliography; style=apa");
+
+// grab URL and pass it to the browser
+curl_exec($ch);
+
+// close cURL resource, and free up system resources
+curl_close($ch);
+?>
+
+------------------------------------------------------
+
+
+Another interesting page to check:
+https://github.com/CrossRef/rest-api-doc

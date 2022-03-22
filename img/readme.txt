@@ -1,0 +1,1 @@
+Full-width images should be jpg at 70% quality and width of 2560 pixels.

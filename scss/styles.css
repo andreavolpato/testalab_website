@@ -1,0 +1,632 @@
+/* ---------------------------------------------- /*
+ * General
+/* ---------------------------------------------- */
+.page-section {
+  padding: 5rem 0.5rem;
+}
+
+.container-research {
+  max-width: 48rem;
+  text-justify: auto;
+  text-align: justify;
+}
+
+.container-setup {
+  height: 75vh;
+}
+
+.container-video {
+  height: 65vh;
+}
+
+.container-people {
+  max-width: 80rem;
+}
+
+.shadow-bg {
+  -webkit-box-shadow: 0rem 0rem 3rem #000;
+          box-shadow: 0rem 0rem 3rem #000;
+}
+
+p {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+}
+
+/* ---------------------------------------------- /*
+ * Dividers
+/* ---------------------------------------------- */
+.divider {
+  border-top: 4px solid #25c2a8;
+  opacity: 1;
+  max-width: 6rem;
+  margin: 1.75rem 0rem;
+  -webkit-box-shadow: 0rem 0rem 1.5rem #25c2a8;
+          box-shadow: 0rem 0rem 1.5rem #25c2a8;
+}
+
+.divider-secondary {
+  border-top: 4px solid #f78c1b;
+  opacity: 1;
+  max-width: 6rem;
+  margin: 1.75rem 0rem;
+  -webkit-box-shadow: 0rem 0rem 1.5rem #f78c1b;
+          box-shadow: 0rem 0rem 1.5rem #f78c1b;
+}
+
+.divider-scilife {
+  border-top: 4px solid #a7c947;
+  opacity: 1;
+  max-width: 6rem;
+  margin: 1.75rem 0rem;
+  -webkit-box-shadow: 0rem 0rem 1.5rem #a7c947;
+          box-shadow: 0rem 0rem 1.5rem #a7c947;
+}
+
+.divider-kth {
+  border-top: 4px solid #1954a6;
+  opacity: 1;
+  max-width: 6rem;
+  margin: 1.75rem 0rem;
+  -webkit-box-shadow: 0rem 0rem 1.5rem #1954a6;
+          box-shadow: 0rem 0rem 1.5rem #1954a6;
+}
+
+/* ---------------------------------------------- /*
+ * Backgrounds
+/* ---------------------------------------------- */
+.bg-scilife-logo {
+  color: #212529;
+  background: #b2d359;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), color-stop(5%, rgba(0, 0, 0, 0))), url("../img/logo/scilifelab/SciLifeLab_symbol_Green.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 5%), linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 5%), url("../img/logo/scilifelab/SciLifeLab_symbol_Green.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg-kth {
+  color: #dee2e6;
+  background: #1954a6;
+}
+
+.bg-jes-setup {
+  color: #ced4da;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.9))), url("../img/background/jes_setup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 5%), linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 5%), linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../img/background/jes_setup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-black {
+  background-color: #000000;
+  color: #6c757d;
+}
+
+.bg-secondary {
+  background-color: #e9ecef !important;
+  color: #343a40;
+}
+
+.bg-more-dark {
+  background-color: #121418;
+  color: #adb5bd;
+}
+
+.bg-darker {
+  background-color: #0e1013;
+  color: #6c757d;
+}
+
+/* ---------------------------------------------- /*
+  * Carousel
+/* ---------------------------------------------- */
+@-webkit-keyframes zoomin {
+  0% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    -webkit-transform: scale(1.05, 1.05);
+            transform: scale(1.05, 1.05);
+  }
+}
+@keyframes zoomin {
+  0% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    -webkit-transform: scale(1.05, 1.05);
+            transform: scale(1.05, 1.05);
+  }
+}
+
+.carousel-cover {
+  height: 100vh;
+  width: 100vw;
+  min-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right center;
+     object-position: right center;
+  -webkit-animation: zoomin 15s forwards;
+          animation: zoomin 15s forwards;
+}
+
+.carousel-banner {
+  height: 100%;
+  width: 100%;
+  min-height: 20rem;
+  max-height: 40rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.carousel-selected-pubblication {
+  height: 40vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+}
+
+.gradient-overlay {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), color-stop(50%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.3)), color-stop(30%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), color-stop(30%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), color-stop(30%, rgba(0, 0, 0, 0)));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 50%), linear-gradient(to left, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 30%), linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 30%), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 30%);
+}
+
+.carousel-cover-content {
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 15%;
+  left: 10%;
+  padding-top: 8rem;
+  z-index: 20;
+  color: white;
+  text-shadow: 0rem 0rem 2rem black;
+}
+
+.carousel-cover-scroll-icon {
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2rem;
+  bottom: 4%;
+  left: 50%;
+  z-index: 20;
+  -webkit-filter: drop-shadow(0rem 0rem 1rem #000000);
+          filter: drop-shadow(0rem 0rem 1rem #000000);
+}
+
+/* ---------------------------------------------- /*
+  * Logo
+/* ---------------------------------------------- */
+.logo-kth {
+  color: #1954a6;
+  width: 6rem;
+}
+
+.link-kth {
+  color: #1954a6;
+  text-decoration: none;
+}
+
+.link-kth.hover, .link-kth:hover {
+  color: #1954a6;
+  text-decoration: underline;
+}
+
+.logo-scilife {
+  color: #a7c947;
+  width: 6rem;
+}
+
+.link-scilife {
+  color: #a7c947;
+  text-decoration: none;
+}
+
+.link-scilife.hover, .link-scilife:hover {
+  color: #a7c947;
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------- /*
+  * Images
+/* ---------------------------------------------- */
+.img-people {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 0px solid #555;
+  -webkit-box-shadow: 0rem 0rem 3rem rgba(247, 140, 27, 0.35);
+          box-shadow: 0rem 0rem 3rem rgba(247, 140, 27, 0.35);
+}
+
+.img-ila {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #25c2a8;
+  -webkit-box-shadow: 0rem 0rem 3rem rgba(37, 194, 168, 0.5);
+          box-shadow: 0rem 0rem 3rem rgba(37, 194, 168, 0.5);
+}
+
+.img-gallery {
+  -webkit-box-shadow: 0rem 1rem 3rem #000;
+          box-shadow: 0rem 1rem 3rem #000;
+}
+
+/* ---------------------------------------------- /*
+  * Navbar
+/* ---------------------------------------------- */
+.navbar {
+  -webkit-box-shadow: 0rem 0rem 3rem #000;
+          box-shadow: 0rem 0rem 3rem #000;
+  background-color: rgba(33, 37, 41, 0.7);
+  -webkit-backdrop-filter: blur(0.5rem);
+          backdrop-filter: blur(0.5rem);
+}
+
+.nav-item {
+  padding: 0.25rem 1.5rem;
+}
+
+.nav-menu-label {
+  font-weight: 700;
+  color: #adb5bd;
+}
+
+.nav-masthead .nav-link {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  font-weight: 700;
+  color: #adb5bd;
+  background-color: transparent;
+  border-bottom: 0rem solid transparent;
+  height: 2.5rem;
+}
+
+.nav-masthead .nav-link.active, .nav-masthead .nav-link:active {
+  color: #25c2a8 !important;
+  border-bottom-color: #25c2a8;
+  text-shadow: 0rem 0rem 1rem #25c2a8;
+}
+
+.nav-masthead .nav-link.hover, .nav-masthead .nav-link:hover {
+  color: #e9ecef !important;
+  border-bottom-color: #e9ecef;
+  text-shadow: 0rem 0rem 2rem #fff;
+}
+
+.navbar-toggler {
+  border: 0;
+  outline: none;
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  -webkit-transition: -webkit-box-shadow .15s ease-in-out;
+  transition: -webkit-box-shadow .15s ease-in-out;
+  transition: box-shadow .15s ease-in-out;
+  transition: box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.navbar-toggler:focus {
+  border: 0;
+}
+
+.dropdown-menu {
+  min-width: 0;
+}
+
+.dropdown-menu-dark .dropdown-item {
+  color: #adb5bd;
+}
+
+.dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
+  color: #343a40;
+  background-color: #25c2a8;
+}
+
+/* ---------------------------------------------- /*
+  * Buttons
+/* ---------------------------------------------- */
+.btn-xl {
+  padding: 1rem 2rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 5rem;
+}
+
+.btn-social {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.25rem;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  text-shadow: 0rem 0rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.btn-twitter {
+  color: #ffffff;
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+
+.btn-twitter:hover, .btn-twitter:focus {
+  color: #ffffff;
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+  -webkit-box-shadow: 0rem 0rem 1.5rem #1DA1F2;
+          box-shadow: 0rem 0rem 1.5rem #1DA1F2;
+}
+
+.btn-github {
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-github:hover, .btn-github:focus {
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  -webkit-box-shadow: 0rem 0rem 1.5rem #f8f9fa;
+          box-shadow: 0rem 0rem 1.5rem #f8f9fa;
+}
+
+.btn-primary {
+  background-color: #25c2a8;
+  border-color: #25c2a8;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #25c2a8;
+  border-color: #25c2a8;
+  -webkit-box-shadow: 0rem 0rem 1.5rem #25c2a8;
+          box-shadow: 0rem 0rem 1.5rem #25c2a8;
+}
+
+.btn-secondary {
+  background-color: #f78c1b;
+  border-color: #f78c1b;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: #f78c1b;
+  border-color: #f78c1b;
+  -webkit-box-shadow: 0rem 0rem 1.5rem #f78c1b;
+          box-shadow: 0rem 0rem 1.5rem #f78c1b;
+}
+
+.btn-youtube {
+  color: #ffffff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.btn-youtube:hover, .btn-youtube:focus {
+  color: #ffffff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+  -webkit-box-shadow: 0rem 0rem 1.5rem #ff0000;
+          box-shadow: 0rem 0rem 1.5rem #ff0000;
+}
+
+/* ---------------------------------------------- /*
+  * Icons
+/* ---------------------------------------------- */
+.bi-big {
+  font-size: 2rem;
+}
+
+/* ---------------------------------------------- /*
+  * Text
+/* ---------------------------------------------- */
+.body {
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-size: 3rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  margin-bottom: .5rem;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  margin-bottom: .5rem;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  margin-bottom: .5rem;
+  text-align: left;
+}
+
+h4 {
+  font-family: "Poppins";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  margin-bottom: .5rem;
+  text-align: left;
+}
+
+.text-main {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.text-shadow {
+  text-shadow: 0rem 0rem 1rem black;
+}
+
+.text-shadow-sm {
+  text-shadow: 0rem 0rem 0.2rem black;
+}
+
+.text-scilife {
+  color: #212529;
+}
+
+.text-scilife-bold {
+  color: #a7c947;
+  font-weight: bold;
+}
+
+.text-kth {
+  color: #1954a6;
+  font-weight: bold;
+}
+
+.text-gray-500 {
+  color: #adb5bd;
+}
+
+.color-primary {
+  color: #25c2a8;
+  text-shadow: 0rem 0rem 1rem #25c2a8;
+}
+
+.color-secondary {
+  color: #f78c1b;
+  text-shadow: 0rem 0rem 1rem #f78c1b;
+}
+
+a {
+  color: #25c2a8;
+}
+
+/* ---------------------------------------------- /*
+  * bibtex
+/* ---------------------------------------------- */
+.bibtex-title {
+  font-weight: 600;
+}
+
+.bibtex-journal {
+  color: #25c2a8;
+  font-weight: 600;
+}
+
+.bibtex-doi-link {
+  color: #6c757d;
+  font-weight: 400;
+}
+
+.bibtex-doi-link.hover, .bibtex-doi-link:hover {
+  color: #f78c1b;
+  text-shadow: 0rem 0rem 1rem #f78c1b;
+}
+
+/* ---------------------------------------------- /*
+  * Animated scroll arrows
+/* ---------------------------------------------- */
+.arrow {
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+
+.arrow-first {
+  -webkit-animation: arrow-movement 4s ease-in-out infinite;
+          animation: arrow-movement 4s ease-in-out infinite;
+}
+
+.arrow-second {
+  -webkit-animation: arrow-movement 4s 2s ease-in-out infinite;
+          animation: arrow-movement 4s 2s ease-in-out infinite;
+}
+
+.arrow:before,
+.arrow:after {
+  background: #fff;
+  content: '';
+  display: block;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+}
+
+.arrow:before {
+  -webkit-transform: rotate(45deg) translateX(-23%);
+          transform: rotate(45deg) translateX(-23%);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.arrow:after {
+  -webkit-transform: rotate(-45deg) translateX(23%);
+          transform: rotate(-45deg) translateX(23%);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+@-webkit-keyframes arrow-movement {
+  0% {
+    opacity: 0;
+    top: -45%;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes arrow-movement {
+  0% {
+    opacity: 0;
+    top: -45%;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

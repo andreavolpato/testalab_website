@@ -1,0 +1,18 @@
+<h2>Automated STED</h2>
+Read the paper:
+<a href="https://doi.org/10.1088/1361-6463/ab4c13">Alvelid et al. 2020</a>
+<hr class="divider-secondary">
+STED microscopy has been continuously developed in the past decades into a nanoscopy technique that is today used to answer a range of biological questions. Developments of the probes and the optics are both important factors as to why it is one of the most used nanoscopy techniques today, providing a spatial resolution down towards 30 nm in biological samples. What has been lacking is a development in the direction of automation and the possibility to acquire larger FOVs. In our lab, we have developed the technique in this direction, where a combination of optical advancements, additional modules in the microscope, and custom-written hardware control allow our microscope to independently acquire images of theoretically unlimited size.
+<div class="container text-center my-5">
+    <img src="assets/research/automated_sted/setup.png" class="img-fluid">
+</div>
+
+<p>
+The main optical advancement in the microscope is a scanning system which allows a consistent FOV, both in terms of resolution and intensity, of 80 x 80 µm<sup>2</sup>. The scanning system consists of two separated galvanometric mirrors, one for each scanning dimension, with a spherical mirror halfway in the optical path between the two. This creates a stationary beam at the back focal plane, no matter the scanning position, and hence both optical aberrations and vignetting are minimized. Furthermore, a focus lock, based on a feedback loop between the axial piezo position and the detected lateral translation of a TIR laser beam as the sample moves along the optical axis, always keeps our sample in focus over prolonged recording times. The custom-written microscope control software that integrates all the parts has successfully allowed the microscope to run without user intervention for overnight recordings. We have shown an imaged area up to 0.53 x 0.53 mm<sup>2</sup> in cultured hippocampal neurons.
+
+<div class="container text-center my-5">
+    <img src="assets/research/automated_sted/big_fov_concept.gif" class="img-fluid">
+</div>
+
+<p>
+Custom-written software used to control the microscope is open-source and can be found <a href="https://github.com/jonatanalvelid/Tempesta-RedSTED">here</a>. 

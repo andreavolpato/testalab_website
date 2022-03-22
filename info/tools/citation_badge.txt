@@ -1,0 +1,10 @@
+It would be cool to add an impact badge to citations
+It requires the doi of the pubblicaiton
+
+https://badge.dimensions.ai/#build
+https://api.altmetric.com/embeds.html
+
+
+You should use citation-js to parse and extract the DOI
+https://citation.js.org
+https://peerj.com/articles/cs-214/#fig-3

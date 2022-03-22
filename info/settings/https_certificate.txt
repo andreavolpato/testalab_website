@@ -1,0 +1,3 @@
+This tool for getting an https certificate is free.
+It is a no-profit foundation backed by the linux foundation.
+https://letsencrypt.org/
