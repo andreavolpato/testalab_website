@@ -108,8 +108,8 @@
         array(
             'name'      => 'Guillaume Minet',
             'position'  => 'PhD Student',
-            'photo'     => 'assets/people/team/man.webp', 
-            'shortbio'  => "",
+            'photo'     => 'assets/people/team/Guillaume.jpg', 
+            'shortbio'  => "I have an engineering/physicist background with a specialisation on the design and characterization of optical systems. I joined the Testa Lab for my PhD to contribute with new optical solutions to the field of super-resolution microscopy. I plan to develop novel and modular light patterning that are compatible with RESOLFT optical nanoscopy paving the way for faster 3D recordings in intact biological samples.",
             'email'     => 'guillaume.minet@scilifelab.se'
         ),
         array(
