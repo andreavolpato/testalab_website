@@ -76,6 +76,13 @@
             'email'     => 'jonatan.alvelid@scilifelab.se'
         ),
         array(
+            'name'      => 'Ruizhe Lin',
+            'position'  => 'Postdoctoral Researcher',
+            'photo'     => 'assets/people/team/man.webp', 
+            'shortbio'  => '',
+            'email'     => 'ruizhe.lin@scilifelab.se'
+        ),
+        array(
             'name'      => 'Martina Damenti',
             'position'  => 'PhD Student',
             'photo'     => 'assets/people/team/Martina.jpg', 
