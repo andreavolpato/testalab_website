@@ -116,7 +116,7 @@
             'name'      => 'Yongyue Qian',
             'position'  => 'PhD Student',
             'photo'     => 'assets/people/team/Yongyue.jpg', 
-            'shortbio'  => "",
+            'shortbio'  => "My research background is optical engineering and nanophotonics. I joined Testa lab as a PhD student to develop novel illumination patterns for RESOLFT microscopy. Now I'm interested in building super-resolution and large filed-of-view single objective light-sheet microscopy with switchable fluorescence proteins.",
             'email'     => 'yongyue.qian@scilifelab.se'
         ),
     );
