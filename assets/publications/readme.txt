@@ -12,3 +12,6 @@ Replace:
 - Cáceres with Caceres
 Also no heading is allowed in the document. Remove any line at the beginning of the file from scopus.
 
+
+TODO
+For the future we might consider using https://github.com/larsgw/citation.js
