@@ -78,8 +78,8 @@
         array(
             'name'      => 'Ruizhe Lin',
             'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/man.webp', 
-            'shortbio'  => '',
+            'photo'     => 'assets/people/team/Ruizhe.jpg', 
+            'shortbio'  => 'I am an optical engineer with a background in physics. I am interested in developing optical imaging tools, with particular focus on super-resolution and adaptive optics techniques. I mainly work on incorporating the adaptive optics module with the optical fluorescence nanoscopy to extend the super-resolution imaging into deep-tissue regions.',
             'email'     => 'ruizhe.lin@scilifelab.se'
         ),
         array(
@@ -108,8 +108,9 @@
         array(
             'name'      => 'Guillem Marín Aguilera',
             'position'  => 'PhD Student',
-            'photo'     => 'assets/people/team/man.webp', 
-            'shortbio'  => "",
+            'photo'     => 'assets/people/team/Guillem.jpg', 
+            'shortbio'  => "From a nanotechnology background, I specialized in the design of photonic systems. 
+            My research focuses on the investigation of fluorescence photoswitching and its use in super resolution microscopy and biophysical methods. As a PhD I aim to develop novel platforms for optical nanoscopy and sensing.",
             'email'     => 'gmarin.aguilera@gmail.com'
         ),
         array(
@@ -123,7 +124,8 @@
             'name'      => 'Yongyue Qian',
             'position'  => 'PhD Student',
             'photo'     => 'assets/people/team/Yongyue.jpg', 
-            'shortbio'  => "My research background is optical engineering and nanophotonics. I joined Testa lab as a PhD student to develop novel illumination patterns for RESOLFT microscopy. Now I'm interested in building super-resolution and large filed-of-view single objective light-sheet microscopy with switchable fluorescence proteins.",
+            'shortbio'  => "My research background is optical engineering and nanophotonics. I joined the Testa lab as a PhD student to develop novel illumination patterns for RESOLFT microscopy. 
+            My project focuses on building next generation super-resolution system for volumetric imaging based on single objective light-sheet microscopy and photo-switching.",
             'email'     => 'yongyue.qian@scilifelab.se'
         ),
     );
