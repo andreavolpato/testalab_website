@@ -78,7 +78,7 @@
         array(
             'name'      => 'Ruizhe Lin',
             'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/Ruizhe.jpg', 
+            'photo'     => 'assets/people/team/Ruizhe.JPG', 
             'shortbio'  => 'I am an optical engineer with a background in physics. I am interested in developing optical imaging tools, with particular focus on super-resolution and adaptive optics techniques. I mainly work on incorporating the adaptive optics module with the optical fluorescence nanoscopy to extend the super-resolution imaging into deep-tissue regions.',
             'email'     => 'ruizhe.lin@scilifelab.se'
         ),
@@ -101,8 +101,8 @@
         array(
             'name'      => 'Chiara Sgattoni',
             'position'  => 'Research Engineer',
-            'photo'     => 'assets/people/team/woman.webp', 
-            'shortbio'  => "",
+            'photo'     => 'assets/people/team/Chiara.jpg', 
+            'shortbio'  => "I am a biologist interested in studying organelle dynamics in neurons, with a specific focus on the nanoscale organization and dynamics of extracellular vesicles in the neuronal network. I am using new labelling techniques and live fluorescence nanoscopy to investigate vesicle uptake and release.",
             'email'     => 'chiara.sgattoni@scilifelab.se'
         ),
         array(
