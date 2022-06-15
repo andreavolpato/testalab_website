@@ -74,15 +74,21 @@
                 data-bs-ride="carousel" data-bs-pause="hover">
                 <div class="carousel-inner">
                     <!-- Picture 1 -->
-                    <div class="carousel-item"><img src="assets/people/social/group201904.jpg" class="carousel-banner">
+                    <div class="carousel-item active"><img src="assets/people/social/2022_06_13_group1.jpg" class="carousel-banner">
                         <div class="carousel-caption text-shadow-sm">
-                            <h4 class="text-center">April 2019</h4>
+                            <h4 class="text-center">June 2022</h4>
                         </div>
                     </div>
                     <!-- Picture 2 -->
-                    <div class="carousel-item active"><img src="assets/people/social/group_2021_10.jpg" class="carousel-banner">
+                    <div class="carousel-item"><img src="assets/people/social/group_2021_10.jpg" class="carousel-banner">
                         <div class="carousel-caption text-shadow-sm">
                             <h4 class="text-center">October 2021</h4>
+                        </div>
+                    </div>
+                    <!-- Picture 3 -->
+                    <div class="carousel-item"><img src="assets/people/social/group201904.jpg" class="carousel-banner">
+                        <div class="carousel-caption text-shadow-sm">
+                            <h4 class="text-center">April 2019</h4>
                         </div>
                     </div>
                 </div>

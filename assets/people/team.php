@@ -33,7 +33,7 @@
         array(
             'name'      => 'Andrea Volpato',
             'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/Andrea_V.JPG', 
+            'photo'     => 'assets/people/team/Andrea_V.jpg', 
             'shortbio'  => 'I am a physical chemist with a background in non-linear optical spectroscopy.
             My expertise includes the development of advanced optical systems, investigation of complex photo-physics in biological processes, and theoretical modeling of spectroscopic data.
             I’m developing new tools in functional imaging, exploiting switchable transitions in fluorescent proteins, and organic dyes.',
@@ -42,7 +42,7 @@
         array(
             'name'      => 'Dirk Ollech',
             'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/Dirk.png', 
+            'photo'     => 'assets/people/team/Dirk.jpg', 
             'shortbio'  => 'My background is in chemical biology.
             I combine methods of chemistry and molecular biology to develop new tools to manipulate and study living cells and organisms with optical microscopy techniques.',
             'email'     => 'dirk.ollech@scilifelab.se'
@@ -50,7 +50,7 @@
         array(
             'name'      => 'Mariline Silva',
             'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/woman.webp', 
+            'photo'     => 'assets/people/team/Mariline.jpg', 
             'shortbio'  => 'I am a neurobiologist interested in studying the dynamic processes elicited by synaptic activity.
             Currently, I am using advanced labelling techniques and live cell optical nanoscopy to investigate the effects of synaptic activity in the organization and distribution of synaptic organelles with high spatial-temporal resolution.',
             'email'     => 'mariline.silva@scilifelab.se'
@@ -78,7 +78,7 @@
         array(
             'name'      => 'Ruizhe Lin',
             'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/Ruizhe.JPG', 
+            'photo'     => 'assets/people/team/Ruizhe.jpg', 
             'shortbio'  => 'I am an optical engineer with a background in physics. I am interested in developing optical imaging tools, with particular focus on super-resolution and adaptive optics techniques. I mainly work on incorporating the adaptive optics module with the optical fluorescence nanoscopy to extend the super-resolution imaging into deep-tissue regions.',
             'email'     => 'ruizhe.lin@scilifelab.se'
         ),
@@ -93,7 +93,7 @@
         array(
             'name'      => 'Xavier Casas Moreno',
             'position'  => 'PhD Student',
-            'photo'     => 'assets/people/team/Xavier.png', 
+            'photo'     => 'assets/people/team/Xavier.jpg', 
             'shortbio'  => "I bring my electrical engineering background into the multidisciplinary field of super-resolution microscopy! I want to have new ideas for tools that push the creation and acceleration of new biological applications by understanding the current research gaps and collaborating with my colleagues.
             More specifically, in my PhD I'm exploring the challenges of RESOLFT and pushing the throughput in terms of large field of view and faster recordings with my MoNaLISA setup.",
             'email'     => 'xavier.casas@scilifelab.se'
