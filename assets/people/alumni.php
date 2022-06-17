@@ -1,10 +1,12 @@
 Anne Auer, Intern and Master Student<br>
+Nina Reddmann, Intern<br>
+Steffen Dominik Restel, Intern<br>
 Elham Jalalvand, Postdoctoral Researcher<br>
 Staffan Al-Kadhimi, Intern and Collaborator<br>
 Lea Rems, Postdoctoral Researcher<br>
 Debashish Chitnis, Intern<br>
 Sophie Kopetschke, Intern<br>
-Josep, Intern<br>
+Josep Carbonell Roig, Intern<br>
 Andrea Bucci, Master Student<br>
 Federico Barabas, Postdoctoral Researcher<br>
 Jes Dreier, Postdoctoral Researcher<br>

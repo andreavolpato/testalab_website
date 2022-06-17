@@ -71,7 +71,7 @@
         <!-- Carousel of images of people -->
         <section class="container">
             <div class="carousel slide carousel-slide" id="peopleCarousel"
-                data-bs-ride="carousel" data-bs-pause="hover">
+                data-bs-ride="carousel" data-bs-interval="15000" data-bs-pause="hover">
                 <div class="carousel-inner">
                     <!-- Picture 1 -->
                     <div class="carousel-item active"><img src="assets/people/social/2022_06_13_group1.jpg" class="carousel-banner">
