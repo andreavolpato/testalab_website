@@ -68,7 +68,7 @@
         ),
         array(
             'name'      => 'Jonatan Alvelid',
-            'position'  => 'Research Engineer',
+            'position'  => 'Postdoctoral Researcher',
             'photo'     => 'assets/people/team/Jonatan.jpg', 
             'shortbio'  => 'I am an engineering physicist and nanotechnologist by training, with acquired experience in optical microscopy and programming.
             With my diverse background I am developing a range of tools that I hope will support the usage of our microscopes for biological applications. This includes automatization of the microscopes and data acquisition, improved and automatized image analysis pipelines, and new probes.
