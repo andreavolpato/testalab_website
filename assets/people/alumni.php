@@ -1,3 +1,4 @@
+Chiara Sgattoni, Research Engineer<br>
 Alessia Papalini, Master Student<br>
 Anne Auer, Intern and Master Student<br>
 Nina Reddmann, Intern<br>

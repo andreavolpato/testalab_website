@@ -99,13 +99,6 @@
             'email'     => 'xavier.casas@scilifelab.se'
         ),
         array(
-            'name'      => 'Chiara Sgattoni',
-            'position'  => 'Research Engineer',
-            'photo'     => 'assets/people/team/Chiara.jpg', 
-            'shortbio'  => "I am a biologist interested in studying organelle dynamics in neurons, with a specific focus on the nanoscale organization and dynamics of extracellular vesicles in the neuronal network. I am using new labelling techniques and live fluorescence nanoscopy to investigate vesicle uptake and release.",
-            'email'     => 'chiara.sgattoni@scilifelab.se'
-        ),
-        array(
             'name'      => 'Guillem Marín Aguilera',
             'position'  => 'PhD Student',
             'photo'     => 'assets/people/team/Guillem.jpg', 
