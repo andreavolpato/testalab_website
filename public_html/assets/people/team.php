@@ -121,5 +121,14 @@
             My project focuses on building next generation super-resolution system for volumetric imaging based on single objective light-sheet microscopy and photo-switching.",
             'email'     => 'yongyue.qian@scilifelab.se'
         ),
+        array(
+            'name'      => 'Max Frankel',
+            'position'  => 'Research Assistant',
+            'photo'     => 'assets/people/team/Max.jpg', 
+            'shortbio'  => "I am a physics student interested in optics and microscopy. In between finishing my bachelors and starting graduate school, I am working in the Testalab on a Fulbright grant from the US.
+            My project is to explore light patterning with a spatial light modulator in the MoNaLISA setup for RESOLFT microscopy, with the goal of creating a more modular setup and being able to optimize patterning for different samples.
+            At SciLifeLab, I am also running the program <i>Scientific research through an artist’s lens</i>, connecting researchers with artists at the Royal Institute of Art in Stockholm.",
+            'email'     => 'max.frankel@scilifelab.se'
+        ),
     );
 ?>

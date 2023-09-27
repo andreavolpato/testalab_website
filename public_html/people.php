@@ -73,19 +73,26 @@
             <div class="carousel slide carousel-slide" id="peopleCarousel"
                 data-bs-ride="carousel" data-bs-interval="15000" data-bs-pause="hover">
                 <div class="carousel-inner">
-                    <!-- Picture 1 -->
+                <!--TODO: make a foder with picture and descriptions for an automatic carousel -->
+                    <!-- Most recent group pic -->
                     <div class="carousel-item active"><img src="assets/people/social/2022_06_13_group1.jpg" class="carousel-banner">
                         <div class="carousel-caption text-shadow-sm">
                             <h4 class="text-center">June 2022</h4>
                         </div>
                     </div>
-                    <!-- Picture 2 -->
+                    <!-- FOM 2023 -->
+                    <div class="carousel-item"><img src="assets/people/social/2023_04_fom_2023.jpg" class="carousel-banner">
+                        <div class="carousel-caption text-shadow-sm">
+                            <h4 class="text-center">April 2023 - FOM in Porto</h4>
+                        </div>
+                    </div>
+                    <!-- Andreas' defence -->
                     <div class="carousel-item"><img src="assets/people/social/group_2021_10.jpg" class="carousel-banner">
                         <div class="carousel-caption text-shadow-sm">
                             <h4 class="text-center">October 2021</h4>
                         </div>
                     </div>
-                    <!-- Picture 3 -->
+                    <!-- Group in front of scilife -->
                     <div class="carousel-item"><img src="assets/people/social/group201904.jpg" class="carousel-banner">
                         <div class="carousel-caption text-shadow-sm">
                             <h4 class="text-center">April 2019</h4>
