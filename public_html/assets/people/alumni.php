@@ -1,3 +1,7 @@
+Dirk Ollech, Postdoctoral Researcher<br>
+Martina Damenti, PhD Student<br>
+Xavier Casas Moreno, PhD Student<br>
+Max Frankel, Research Assistant<br>
 Chiara Sgattoni, Research Engineer<br>
 Alessia Papalini, Master Student<br>
 Anne Auer, Intern and Master Student<br>
