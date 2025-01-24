@@ -16,7 +16,7 @@
         // Postdocs
         array(
             'name'      => 'Giovanna Coceano',
-            'position'  => 'Postdoctoral Researcher',
+            'position'  => 'Researcher',
             'photo'     => 'assets/people/team/Giovanna.jpg', 
             'shortbio'  => 'I am a cellular biologist with an interest in neuroscience and optical microscopy.
             My focus is to investigate the intricate network of mitochondria, their nanoscale organization and their dynamic distribution in relation to other organelles inside the complex neuronal morphology.
@@ -25,27 +25,19 @@
         ),
         array(
             'name'      => 'Francesca Pennacchietti',
-            'position'  => 'Postdoctoral Researcher',
+            'position'  => 'Researcher',
             'photo'     => 'assets/people/team/Francesca.jpg', 
             'shortbio'  => 'I am a biophysics with an interest in fluorescence microscopy. My research focus is in the investigation of the tight link that exist between photophysical complexity of fluorophore and super resolution techniques.',
             'email'     => 'francesca.pennacchietti@scilifelab.se'
         ),
         array(
             'name'      => 'Andrea Volpato',
-            'position'  => 'Postdoctoral Researcher',
+            'position'  => 'Researcher',
             'photo'     => 'assets/people/team/Andrea_V.jpg', 
             'shortbio'  => 'I am a physical chemist with a background in non-linear optical spectroscopy.
             My expertise includes the development of advanced optical systems, investigation of complex photo-physics in biological processes, and theoretical modeling of spectroscopic data.
             I’m developing new tools in functional imaging, exploiting switchable transitions in fluorescent proteins, and organic dyes.',
             'email'     => 'andrea.volpato@scilifelab.se'
-        ),
-        array(
-            'name'      => 'Dirk Ollech',
-            'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/Dirk.jpg', 
-            'shortbio'  => 'My background is in chemical biology.
-            I combine methods of chemistry and molecular biology to develop new tools to manipulate and study living cells and organisms with optical microscopy techniques.',
-            'email'     => 'dirk.ollech@scilifelab.se'
         ),
         array(
             'name'      => 'Mariline Silva',
@@ -55,8 +47,6 @@
             Currently, I am using advanced labelling techniques and live cell optical nanoscopy to investigate the effects of synaptic activity in the organization and distribution of synaptic organelles with high spatial-temporal resolution.',
             'email'     => 'mariline.silva@scilifelab.se'
         ),
-        
-        // Students
         array(
             'name'      => 'Andreas Bodén',
             'position'  => 'Postdoctoral Researcher',
@@ -83,21 +73,20 @@
             'email'     => 'ruizhe.lin@scilifelab.se'
         ),
         array(
-            'name'      => 'Martina Damenti',
-            'position'  => 'PhD Student',
-            'photo'     => 'assets/people/team/Martina.jpg', 
-            'shortbio'  => 'I am a Neurobiologist with a background in optical microscopy.  I have a strong interest in studying the molecular mechanisms behind memory formation and learning in neurons, with a particular focus on the dynamic nanoscale organization of pre and post synaptic compartment.
-            I combine the development of new genetically encoded tags with new labelling strategies for optical fluorescence nanoscopy to shed light on synaptic contacts.',
-            'email'     => 'martina.damenti@scilifelab.se'
+            'name'      => 'Simone Ezendam',
+            'position'  => 'Postdoctoral Researcher',
+            'photo'     => 'assets/people/team/Simone.jpg', 
+            'shortbio'  => ' ',
+            'email'     => 'simone.ezendam@scilifelab.se'
         ),
         array(
-            'name'      => 'Xavier Casas Moreno',
-            'position'  => 'PhD Student',
-            'photo'     => 'assets/people/team/Xavier.jpg', 
-            'shortbio'  => "I bring my electrical engineering background into the multidisciplinary field of super-resolution microscopy! I want to have new ideas for tools that push the creation and acceleration of new biological applications by understanding the current research gaps and collaborating with my colleagues.
-            More specifically, in my PhD I'm exploring the challenges of RESOLFT and pushing the throughput in terms of large field of view and faster recordings with my MoNaLISA setup.",
-            'email'     => 'xavier.casas@scilifelab.se'
+            'name'      => 'Abigail Illand',
+            'position'  => 'Postdoctoral Researcher',
+            'photo'     => 'assets/people/team/Abigail.jpg', 
+            'shortbio'  => ' ',
+            'email'     => 'abigail.illand@scilifelab.se'
         ),
+        // Students
         array(
             'name'      => 'Guillem Marín Aguilera',
             'position'  => 'PhD Student',
@@ -120,15 +109,6 @@
             'shortbio'  => "My research background is optical engineering and nanophotonics. I joined the Testa lab as a PhD student to develop novel illumination patterns for RESOLFT microscopy. 
             My project focuses on building next generation super-resolution system for volumetric imaging based on single objective light-sheet microscopy and photo-switching.",
             'email'     => 'yongyue.qian@scilifelab.se'
-        ),
-        array(
-            'name'      => 'Max Frankel',
-            'position'  => 'Research Assistant',
-            'photo'     => 'assets/people/team/Max.jpg', 
-            'shortbio'  => "I am a physics student interested in optics and microscopy. In between finishing my bachelors and starting graduate school, I am working in the Testalab on a Fulbright grant from the US.
-            My project is to explore light patterning with a spatial light modulator in the MoNaLISA setup for RESOLFT microscopy, with the goal of creating a more modular setup and being able to optimize patterning for different samples.
-            At SciLifeLab, I am also running the program <i>Scientific research through an artist’s lens</i>, connecting researchers with artists at the Royal Institute of Art in Stockholm.",
-            'email'     => 'max.frankel@scilifelab.se'
         ),
     );
 ?>
