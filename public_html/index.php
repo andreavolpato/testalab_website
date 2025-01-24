@@ -173,15 +173,14 @@
                             and brain tissue with our cutting edge microscopy technology.
                             We offer an outstanding scientific environment
                             and a vibrant working climate with individual freedom and various possibilities for professional development. 
-                            The work will be funded by the European Union within the ERC project “MoNaLISA”.
                             </p>
                         </div>
 
                         <!-- Twitter Feed -->
                         <div class="col-lg-4  col-sm-6 text-center">
                             <a class="twitter-timeline" data-lang="en" data-width="400" data-height="600"
-                                data-theme="dark" href="https://twitter.com/IlariaTesta4">
-                                Tweets by IlariaTesta4
+                            data-theme="dark" href="https://twitter.com/IlariaTesta4">
+                            Tweets by IlariaTesta4
                             </a>
                             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
                         </div>
