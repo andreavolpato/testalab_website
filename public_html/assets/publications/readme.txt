@@ -4,6 +4,7 @@ For example, go to scopus:
 This the page of Ilaria Testa
 https://www.scopus.com/authid/detail.uri?authorId=13105421700
 And export all the articles as bibtex.
+Press "Export all >> Bibtex".
 
 !!!NOTE!!!
 Manually remove the word with accents from the citationkey. These characters make the bibtex_js.js script to crash.

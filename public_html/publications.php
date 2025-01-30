@@ -19,27 +19,27 @@
                 <div class="row mt-5">
                     <!-- Cover-01 -->
                     <div class="col-4">
-                        <a  href="https://doi.org/10.1016/j.nbd.2021.105361">
-                            <span title="Neurobiology of Disease (2021)">
-                                <img src="assets/publications/selected/covers-01.jpg" class="img-fluid shadow-lg rounded-3">
+                        <a  href="https://doi.org/10.1038/s41592-024-02196-8">
+                            <span title="Nature Methods (2024)">
+                                <img src="assets/publications/selected/covers-multisheet.jpg" class="img-fluid shadow-lg rounded-3">
                             </span>
-                        </a>
+                        </a>                    
                     </div>
                     <!-- Cover-02 -->
                     <div class="col-4">
-                        <a  href="https://doi.org/10.1038/s41587-020-00779-2">
-                            <span title="Nature Biotechnology (2021)">
-                                <img src="assets/publications/selected/covers-02.jpg" class="img-fluid shadow-lg rounded-3">
+                        <a  href="https://doi.org/10.1038/s41467-023-44054-9">
+                            <span title="Nature Communication (2023)">
+                                <img src="assets/publications/selected/covers-mirfp.jpg" class="img-fluid shadow-lg rounded-3">
                             </span>
                         </a>                    
                     </div>
                     <!-- Cover-03 -->
                     <div class="col-4">
-                        <a  href="https://doi.org/10.1088/1361-6463/ab4c13">
-                            <span title="Journal of Physics D: Applied Physics (2020)">
-                                <img src="assets/publications/selected/covers-03.jpg" class="img-fluid shadow-lg rounded-3">
+                        <a  href="https://doi.org/10.1038/s41587-022-01489-7">
+                            <span title="Nature Biotechnology (2023)">
+                                <img src="assets/publications/selected/covers-starss.jpg" class="img-fluid shadow-lg rounded-3">
                             </span>
-                        </a>                    
+                        </a>
                     </div>
                 </div>
                 
@@ -47,7 +47,7 @@
         </section>
 
         <!-- Import the bibtex file -->
-        <bibtex src="assets/publications/scopus.bib"></bibtex>
+        <bibtex src="assets/publications/testa.bib"></bibtex>
 
         <!-- Prepare temaplate of citations -->
         <div class="bibtex_template" style="display: none;">
