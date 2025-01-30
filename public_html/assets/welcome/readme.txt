@@ -1,0 +1,1 @@
+Save picture with horizontal edge 2560 pixels.

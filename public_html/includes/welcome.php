@@ -4,11 +4,10 @@
         <div class="carousel slide carousel-fade" id="welcomeCarousel"
             data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="4000">
             <div class="carousel-inner">
-                <div class="carousel-item active"><img src="assets/welcome/neurons.jpg"          class="carousel-cover"></div>
+                <div class="carousel-item active"><img src="assets/welcome/human_neurons.jpg"    class="carousel-cover"></div>
                 <div class="carousel-item">       <img src="assets/welcome/fibroblast3.jpg"      class="carousel-cover"></div>
                 <div class="carousel-item">       <img src="assets/welcome/nup_zstack_color.jpg" class="carousel-cover"></div>
-                <div class="carousel-item">       <img src="assets/welcome/actin_basoon.jpg"     class="carousel-cover"></div>
-                <!-- <div class="carousel-item">       <img src="assets/welcome/spectrin_sted.jpg"    class="carousel-cover"></div> -->
+                <div class="carousel-item">       <img src="assets/welcome/neurons.jpg"          class="carousel-cover"></div>
             </div>
             <div class="gradient-overlay"></div>
         </div>
