@@ -176,14 +176,13 @@
                             </p>
                         </div>
 
-                        <!-- Twitter Feed -->
+                        <!-- Twitter Feed 
                         <div class="col-lg-4  col-sm-6 text-center">
-                            <a class="twitter-timeline" data-lang="en" data-width="400" data-height="600"
-                            data-theme="dark" href="https://twitter.com/IlariaTesta4">
-                            Tweets by IlariaTesta4
-                            </a>
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                            <a class="twitter-timeline" href="https://twitter.com/IlariaTesta4?ref_src=twsrc%5Etfw">
+                            Tweets by IlariaTesta4</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
+                        -->
 
                     </div>
                 </div>
