@@ -40,25 +40,8 @@
             'email'     => 'andrea.volpato@scilifelab.se'
         ),
         array(
-            'name'      => 'Mariline Silva',
-            'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/Mariline.jpg', 
-            'shortbio'  => 'I am a neurobiologist interested in studying the dynamic processes elicited by synaptic activity.
-            Currently, I am using advanced labelling techniques and live cell optical nanoscopy to investigate the effects of synaptic activity in the organization and distribution of synaptic organelles with high spatial-temporal resolution.',
-            'email'     => 'mariline.silva@scilifelab.se'
-        ),
-        array(
-            'name'      => 'Andreas Bodén',
-            'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/Andreas.jpg', 
-            'shortbio'  => 'With a background in biomedical and electrical engineering I joined the Testa group in 2016 for my master thesis.
-            I later enrolled as a PhD student and have since then worked with the design and implementation of our parallelized RESOLFT microscopes together with simulations and theoretical modelling of modern super resolution imaging systems.
-            With an interest in both the theoretical and practical I hope to contribute to a more accurate and holistic understanding of the imaging systems we use and the data they produce.',
-            'email'     => 'andreas.boden@scilifelab.se'
-        ),
-        array(
             'name'      => 'Jonatan Alvelid',
-            'position'  => 'Postdoctoral Researcher',
+            'position'  => 'Researcher',
             'photo'     => 'assets/people/team/Jonatan.jpg', 
             'shortbio'  => 'I am an engineering physicist and nanotechnologist by training, with acquired experience in optical microscopy and programming.
             With my diverse background I am developing a range of tools that I hope will support the usage of our microscopes for biological applications. This includes automatization of the microscopes and data acquisition, improved and automatized image analysis pipelines, and new probes.
@@ -73,18 +56,26 @@
             'email'     => 'ruizhe.lin@scilifelab.se'
         ),
         array(
-            'name'      => 'Simone Ezendam',
+            'name'      => 'Lenny Reinkensmeier',
             'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/Simone.jpg', 
-            'shortbio'  => ' ',
-            'email'     => 'simone.ezendam@scilifelab.se'
+            'photo'     => 'assets/people/team/Lenny.jpg',
+            'shortbio'  => 'I’m a postdoctoral researcher with a background in super-resolution microscopy, developing advanced imaging technologies integrating custom instrumentation, computational imaging and quantitative analysis.
+            My work focuses on intelligent microscopy and high-resolution imaging strategies for studying nanoscale biological processes.',
+            'email'     => 'lenny.reinkensmeier@scilifelab.se'
         ),
         array(
-            'name'      => 'Abigail Illand',
+            'name'      => 'Jelle Schipper',
             'position'  => 'Postdoctoral Researcher',
-            'photo'     => 'assets/people/team/Abigail.jpg', 
+            'photo'     => 'assets/people/team/Jelle.jpg', 
             'shortbio'  => ' ',
-            'email'     => 'abigail.illand@scilifelab.se'
+            'email'     => 'jelle.schipper@scilifelab.se'
+        ),
+        array(
+            'name'      => 'Blanca Mestre Torà',
+            'position'  => 'Postdoctoral Researcher',
+            'photo'     => 'assets/people/team/Blanca.jpg', 
+            'shortbio'  => ' ',
+            'email'     => 'blanca.mestre.tora@scilifelab.se'
         ),
         // Students
         array(
@@ -109,6 +100,36 @@
             'shortbio'  => "My research background is optical engineering and nanophotonics. I joined the Testa lab as a PhD student to develop novel illumination patterns for RESOLFT microscopy. 
             My project focuses on building next generation super-resolution system for volumetric imaging based on single objective light-sheet microscopy and photo-switching.",
             'email'     => 'yongyue.qian@scilifelab.se'
+        ),
+        array(
+            'name'      => 'Karl Höjlund',
+            'position'  => 'PhD Student',
+            'photo'     => 'assets/people/team/Karl.jpg', 
+            'shortbio'  => ' ',
+            'email'     => 'karl.hojlund@scilifelab.se'
+        ),
+        array(
+            'name'      => 'Rebecca Mordini',
+            'position'  => 'PhD Student',
+            'photo'     => 'assets/people/team/Rebecca.jpg', 
+            'shortbio'  => ' ',
+            'email'     => 'rebecca.mordini@scilifelab.se'
+        ),
+        array(
+            'name'      => 'Alberto Morgantini',
+            'position'  => 'PhD Student',
+            'photo'     => 'assets/people/team/Alberto.jpg', 
+            'shortbio'  => 'I am a biophysicist with a background in physics and single-molecule techniques.
+            I develop methods that extend optical microscopy to thick samples such as tissues and organoids, combining adaptive optics, reversibly photoswitchable proteins and polarised light.
+            I am interested in all stages of the experimental process, from setup to data analysis.',
+            'email'     => 'alberto.morgantini@scilifelab.se'
+        ),
+        array(
+            'name'      => 'Emma Pönniäinen',
+            'position'  => 'PhD Student',
+            'photo'     => 'assets/people/team/Emma.jpg',
+            'shortbio'  => ' ',
+            'email'     => 'emma.ponniainen@scilifelab.se'
         ),
     );
 ?>

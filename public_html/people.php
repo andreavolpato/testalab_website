@@ -75,7 +75,13 @@
                 <div class="carousel-inner">
                 <!--TODO: make a foder with picture and descriptions for an automatic carousel -->
                     <!-- Most recent group pic -->
-                    <div class="carousel-item active"><img src="assets/people/social/2022_06_13_group1.jpg" class="carousel-banner">
+                    <div class="carousel-item active"><img src="assets/people/social/2026_03_group.jpg" class="carousel-banner">
+                        <div class="carousel-caption text-shadow-sm">
+                            <h4 class="text-center">March 2026</h4>
+                        </div>
+                    </div>
+                    <!-- June 2022 -->
+                    <div class="carousel-item"><img src="assets/people/social/2022_06_13_group1.jpg" class="carousel-banner">
                         <div class="carousel-caption text-shadow-sm">
                             <h4 class="text-center">June 2022</h4>
                         </div>
