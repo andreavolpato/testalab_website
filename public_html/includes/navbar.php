@@ -28,6 +28,7 @@
                         role="button" data-bs-toggle="dropdown" aria-expanded="false">Research</a>
                     <div class="dropdown-menu dropdown-menu-dark bg-dark" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="research.php#resolft">RESOLFT</a>
+                        <a class="dropdown-item" href="research.php#starss">STARSS</a>
                         <a class="dropdown-item" href="research.php#sted">STED</a>
                         <a> <hr class="dropdown-divider"> </a>
                         <a class="dropdown-item" href="research.php#smart_resolft">Smart RESOLFT</a>
@@ -35,7 +36,6 @@
                         <a class="dropdown-item" href="research.php#monalisa">MoNaLISA</a>
                         <a class="dropdown-item" href="research.php#resolft3d">3D-pRESOLFT</a>
                         <a> <hr class="dropdown-divider"> </a>
-                        <a class="dropdown-item" href="research.php#applications">Applications</a>
                         <a class="dropdown-item" href="research.php#fundings">Fundings</a>
                     </div>
                 </li>

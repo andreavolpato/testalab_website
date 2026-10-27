@@ -18,8 +18,15 @@
             </div>
         </section>
 
+        <!-- STARSS -->
+        <section class="page-section bg-secondary" id="starss">
+            <div class="container container-research">
+                <?php include("assets/research/starss/text.html"); ?>
+            </div>
+        </section>
+
         <!-- Sted -->
-        <section class="page-section bg-secondary" id="sted">
+        <section class="page-section" id="sted">
             <div class="container container-research">
                 <?php include("assets/research/sted/text.html"); ?>
             </div>
@@ -27,32 +34,33 @@
 
         <!--------------------------------------------------------------------->
         <!-- Smart RESOLFT -->
-        <section class="page-section" id="smart_resolft">
+        <section class="page-section bg-secondary" id="smart_resolft">
             <div class="container container-research">
                 <?php include("assets/research/smart_resolft/text.html"); ?>
             </div>
         </section>
 
         <!-- Automated STED -->
-        <section class="page-section bg-secondary" id="automated_sted">
+        <section class="page-section" id="automated_sted">
             <div class="container container-research">
                 <?php include("assets/research/automated_sted/text.html"); ?>
             </div>
         </section>
 
         <!-- Monalisa -->
-        <section class="page-section" id="monalisa">
+        <section class="page-section bg-secondary" id="monalisa">
             <div class="container container-research">
                 <?php include("assets/research/monalisa/text.html"); ?>
             </div>
         </section>
 
         <!-- 3DpRESOLFT -->
-        <section class="page-section bg-secondary" id="resolft3d">
+        <section class="page-section" id="resolft3d">
             <div class="container container-research">
                 <?php include("assets/research/resolft3d/text.html"); ?>
             </div>
         </section>
+
 
         <!--------------------------------------------------------------------->
         <!-- Applications -->
@@ -63,7 +71,7 @@
         </section> -->
 
         <!-- Fundings -->
-        <section class="page-section" id="fundings">
+        <section class="page-section bg-secondary" id="fundings">
             <div class="container container-research">
                 <?php include("assets/research/fundings/text.html"); ?>
             </div>

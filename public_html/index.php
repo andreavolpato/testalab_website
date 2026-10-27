@@ -82,6 +82,13 @@
             </div>
         </section>
 
+        <!-- Second Setup Showcase -->
+        <section class="page-section bg-top-view-setup bg-dark py-0 m-0">
+            <div class="container-md container-setup d-flex align-items-center justify-content-end">
+                    <h2 class="text-shadow text-end">From the optical table <br> to living cells</h2>
+            </div>
+        </section>
+
         <!-- Video from SSF on Youtube -->
         <div class="container-fluid container-video p-0">
             <div class="embed-responsive h-100">
